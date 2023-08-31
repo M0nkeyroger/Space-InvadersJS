@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <audio id="gameMusic" autoplay loop>
+        <source src="Music/theme.mp3" type="audio/mpeg">
+    </audio>  
+    <head>
+         <meta charset="UTF-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <title>Space Invaders</title>
+         <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <!-- Title Screen -->
+        <div id="titleScreen">
+            <img src="title-image.png" alt="Title Image">
+            <img src="start-button.png" id="startButton" alt="Start Game">
+        </div>
+
+        <!-- Canvas for the Game -->
+        <canvas id="canvas1"></canvas>
+
+        <!-- Images for Game Elements -->
+        <img src="beetlemorph.png" id="beetlemorph" style="display: none;">
+        <img src="rhinomorph.png" id="rhinomorph" style="display: none;">
+        <img src="player.png" id="player" style="display: none;">
+        <img src="player_jets.png" id="player_jets" style="display: none;">
+        <img src="boss.png" id="boss" style="display: none;">
+
+        <!-- Script to Load the Game -->
+        <script src="script.js"></script>
+    </body>
+</html>

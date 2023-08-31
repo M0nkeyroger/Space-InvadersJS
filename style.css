@@ -1,0 +1,30 @@
+#canvas1 {
+    border: 5px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+    background: url(background\ 5.png);
+}
+#beetlemorph, #rhinomorph, #player, #player_jets, #boss {
+    display: none;
+}
+#titleScreen {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+}
+
+#startButton {
+    cursor: pointer;
+}
+#startButton:hover {
+    color: red;
+}
+#startButton:active {
+    color: green;
+}
+
