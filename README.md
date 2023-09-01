@@ -3,7 +3,7 @@
 <p align="center"><img src="screenshot.png" alt="Game Screenshot"></p>
 
 <p align="center">
-  [![license](https://img.shields.io/github/license/M0nkeyroger/Space-InvadersJS)](./LICENSE)
+  <img src="https://img.shields.io/github/license/M0nkeyroger/Space-InvadersJS" alt="License">
   <img src="https://img.shields.io/github/stars/M0nkeyroger/Space-InvadersJS" alt="Stars">
   <img src="https://img.shields.io/github/forks/M0nkeyroger/Space-InvadersJS" alt="Forks">
 </p>
