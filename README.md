@@ -27,7 +27,7 @@
 
 <h2 align="center">🎮 Demo</h2>
 
-<p align="center">You can play the game online: <a href="https:------">Play Space Invaders</a></p>
+<p align="center">You can play the game online: <a href="https://m0nkeyroger.github.io/Space-InvadersJS/">Play Space Invaders</a></p>
 
 <h2 align="center">✨ Features</h2>
 
