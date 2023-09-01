@@ -1,3 +1,14 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-image: url('wallpaper.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
 #canvas1 {
     border: 5px solid black;
     position: absolute;
@@ -65,6 +76,8 @@
     width: 400px;
     
 }
+
+
 
 
 
