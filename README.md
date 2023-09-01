@@ -1,4 +1,4 @@
-<h1 align="center">🚀 Space Invaders Game</h1>
+<h1 align="center">🚀 Space Invaders Game 👾 </h1>
 
 <p align="center"><img src="https://raw.githubusercontent.com/M0nkeyroger/Space-InvadersJS/main/.idea/gamescreenshot.png" alt="Game Screenshot"></p>
 
