@@ -50,6 +50,21 @@
     color: white;
     font-family: "Impact", sans-serif;
 }
+#titleScreen p {
+    position : relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    margin-top: 40px; /* Add some padding for spacing */
+    font-size: 20px;
+    color: white;
+    font-family: "Impact", sans-serif;
+    width: 400px;
+    
+}
 
 
 
