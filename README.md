@@ -5,7 +5,10 @@
 <p align="center">
   <img src="https://img.shields.io/github/license/M0nkeyroger/Space-InvadersJS" alt="License">
   <img src="https://img.shields.io/github/stars/M0nkeyroger/Space-InvadersJS" alt="Stars">
-  <img src="https://img.shields.io/github/forks/M0nkeyroger/Space-InvadersJS" alt="Forks">
+  <img src="https://img.shields.io/github/forks/M0nkeyroger/Space-InvadersJS" alt="Forks"> <br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
 </p>
 
 <h2 align="center">👾 Description</h2>
