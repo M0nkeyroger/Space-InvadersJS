@@ -388,10 +388,19 @@ class Game {
         this.bossLives = 10;
         this.reset();
 
+        this.paused = false;
+
         
 
         //event listeners
         window.addEventListener ('keydown',  e =>{
+            //add audio every time player shoots
+            if (e.key === '1' && !this.fired) {
+                const laserSound = document.getElementById('laserShoot1');
+                laserSound.currentTime = 0;
+                laserSound.volume = 0.2;
+                laserSound.play();
+            }
             if (e.key === '1' && !this.fired) this.player.shoot();
             this.fired = true;
             if (this.keys.indexOf(e.key) === -1) this.keys.push(e.key);
@@ -399,6 +408,16 @@ class Game {
                 gameMusic.currentTime = 0;
                 gameMusic.play();
                 this.reset();
+             }
+             if (e.key === 'p'){ //pause and unpause
+                    this.paused = !this.paused;
+                    if (this.paused) {
+                        gameMusic.pause();//pause music
+                        pauseScreen.style.display = 'block';//show pause screen
+                     } else {
+                        gameMusic.play();//play music
+                        pauseScreen.style.display = 'none';//hide pause screen
+                    }
              }
         });
         window.addEventListener ('keyup',  e =>{
@@ -408,6 +427,10 @@ class Game {
         });
     }
     render(context, deltaTime) {
+        if(this.paused) {
+            this.drawStatusText(context);
+            return;
+        }
         //Sprite timing
         if(this.spriteTimer > this.spriteInterval){
             this.spriteUpdated = true;
@@ -475,6 +498,7 @@ class Game {
             for (let i =0; i < this.player.lives; i++){
                 context.fillRect(20+20*i,100,10,15);
             }
+            if(this.paused)return;
             
             //energy bar
             context.save();
@@ -541,10 +565,14 @@ class Game {
             const deltaTime = timeStamp - lastTime;
             lastTime = timeStamp;
             ctx.clearRect(0, 0, canvas.width, canvas.height);
-            game.render(ctx, deltaTime);
+
+            if(!game.paused){
+                game.render(ctx, deltaTime);
+            } else {
+                pauseScreen.style.display = 'block';
+            }
             requestAnimationFrame(animate);
-        }
-    
+        }   
         // Define bgMusic here, assuming it's the background music element
         const bgMusic = document.getElementById('gameMusic');
     

@@ -2,7 +2,16 @@
 <html lang="en">
     <audio id="gameMusic" autoplay loop>
         <source src="Music/theme.mp3" type="audio/mpeg">
-    </audio>  
+    </audio> 
+    <audio id="laserShoot1">
+        <source src="sounds/laser1.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="laserShoot2">
+        <source src="sounds/laser2.mp3" type="audio/mpeg">
+    </audio>
+    <audio id="laserShoot3">
+        <source src="sounds/laser3.mp3" type="audio/mpeg">
+    </audio> 
     <head>
          <meta charset="UTF-8">
          <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +23,11 @@
         <div id="titleScreen">
             <img src="title-image.png" alt="Title Image">
             <img src="start-button.png" id="startButton" alt="Start Game">
+        </div>
+        <!-- Pause Screen -->
+        <div id="pauseScreen">
+            <h1>PAUSED</h1>
+            <p>Press P to resume</p>
         </div>
 
         <!-- Canvas for the Game -->

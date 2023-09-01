@@ -27,4 +27,29 @@
 #startButton:active {
     color: green;
 }
+#pauseScreen {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 1;
+    background: rgba(0, 0, 0, 0.7); /* Add a semi-transparent black background */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+#pauseScreen h1 {
+    font-size: 60px;
+    color: white;
+    font-family: "Impact", sans-serif;
+}
+
+#pauseScreen p {
+    font-size: 30px;
+    color: white;
+    font-family: "Impact", sans-serif;
+}
+
+
 
