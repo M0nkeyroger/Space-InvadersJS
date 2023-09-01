@@ -62,7 +62,7 @@
   • 1: Shoot regular lasers.<br>
   • 2: Unleash small, rapid-fire lasers (requires energy).<br>
   • 3: Fire big lasers with increased damage (requires energy).<br>
-  • R: Restart the game after a game over.
+  • R: Restart the game after a game over.<br>
   • P: Pause/Unpause the game.
 </p>
 
