@@ -26,7 +26,6 @@
   <a href="#how-to-play">🕹️ How to Play</a> •
   <a href="#controls">🎯 Controls</a> •
   <a href="#gameplay">🎮 Gameplay</a> •
-  <a href="#credits">👏 Credits</a> •
   <a href="#license">📄 License</a>
 </p>
 
@@ -49,9 +48,8 @@
 
 <p align="center">1. Clone the repository with the following command:</p>
 
-<p align="center">```bash
-1: git clone https://github.com/M0nkeyroger/Space-InvadersJS.git
-
+<p align="center">
+1: git clone https://github.com/M0nkeyroger/Space-InvadersJS.git<br>
 2: Open the index.html file in a modern web browser to start playing.
 </p>
 
@@ -80,15 +78,6 @@
   • Face off against bosses in alternate waves to earn valuable bonus points.<br>
   • Rack up points for taking down enemies and bosses.
 </p>
-
-<h2 align="center">👏 Credits</h2>
-
-<p align="center">
-  • Game sprites and images: [Image Source]<br>
-  • Sound effects: [Sound Source]<br>
-  • Music: [Music Source]
-</p>
-
 <h2 align="center">📄 License</h2>
 
 <p align="center">This project is licensed under the MIT License. Feel free to explore, modify, and enjoy the Space Invaders adventure to the fullest! 🌠</p>
