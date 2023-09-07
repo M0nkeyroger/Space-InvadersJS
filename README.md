@@ -46,12 +46,19 @@
 
 <h2 align="center">🛠️ Installation</h2>
 
-<p align="center">1. Clone the repository with the following command:</p>
+<p align="center">To clone the repository and play the game, follow these steps:</p>
 
-<p align="center">
-1: git clone https://github.com/M0nkeyroger/Space-InvadersJS.git<br>
-2: Open the index.html file in a modern web browser to start playing.
-</p>
+<ol>
+  <li>
+    <div align="center">
+    
+      git clone https://github.com/M0nkeyroger/Space-InvadersJS.git  
+  </div>
+  </li>
+  <li align="center">Open the `index.html` file in a modern web browser to start playing.</li>
+</ol>
+
+
 
 <h2 align="center">🕹️ How to Play</h2>
 
