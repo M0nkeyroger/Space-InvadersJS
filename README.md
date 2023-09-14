@@ -1,11 +1,16 @@
-<h1 align="center">🚀 Space Invaders Game</h1>
+<h1 align="center">🚀 Space Invaders Game 👾 </h1>
 
-<p align="center"><img src="screenshot.png" alt="Game Screenshot"></p>
+<p align="center"><img src="https://raw.githubusercontent.com/M0nkeyroger/Space-InvadersJS/main/.idea/gamescreenshot.png" alt="Game Screenshot"></p>
 
 <p align="center">
   <img src="https://img.shields.io/github/license/M0nkeyroger/Space-InvadersJS" alt="License">
   <img src="https://img.shields.io/github/stars/M0nkeyroger/Space-InvadersJS" alt="Stars">
-  <img src="https://img.shields.io/github/forks/M0nkeyroger/Space-InvadersJS" alt="Forks">
+  <img src="https://img.shields.io/github/forks/M0nkeyroger/Space-InvadersJS" alt="Forks"> <br>
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JS">
+  <img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS">
+</div>
+
 </p>
 
 <h2 align="center">👾 Description</h2>
@@ -21,13 +26,12 @@
   <a href="#how-to-play">🕹️ How to Play</a> •
   <a href="#controls">🎯 Controls</a> •
   <a href="#gameplay">🎮 Gameplay</a> •
-  <a href="#credits">👏 Credits</a> •
   <a href="#license">📄 License</a>
 </p>
 
 <h2 align="center">🎮 Demo</h2>
 
-<p align="center">You can play the game online: <a href="https:------">Play Space Invaders</a></p>
+<p align="center">You can play the game online: <a href="https://m0nkeyroger.github.io/Space-InvadersJS/">Play Space Invaders</a></p>
 
 <h2 align="center">✨ Features</h2>
 
@@ -42,13 +46,19 @@
 
 <h2 align="center">🛠️ Installation</h2>
 
-<p align="center">1. Clone the repository with the following command:</p>
+<p align="center">To clone the repository and play the game, follow these steps:</p>
 
-<p align="center">```bash
-1: git clone https://github.com/M0nkeyroger/Space-InvadersJS.git
+<ol>
+  <li>
+    <div align="center">
+    
+      git clone https://github.com/M0nkeyroger/Space-InvadersJS.git  
+  </div>
+  </li>
+  <li align="center">Open the `index.html` file in a modern web browser to start playing.</li>
+</ol>
 
-2: Open the index.html file in a modern web browser to start playing.
-</p>
+
 
 <h2 align="center">🕹️ How to Play</h2>
 
@@ -62,7 +72,8 @@
   • 1: Shoot regular lasers.<br>
   • 2: Unleash small, rapid-fire lasers (requires energy).<br>
   • 3: Fire big lasers with increased damage (requires energy).<br>
-  • R: Restart the game after a game over.
+  • R: Restart the game after a game over.<br>
+  • P: Pause/Unpause the game.
 </p>
 
 <h2 align="center">🎮 Gameplay</h2>
@@ -74,15 +85,6 @@
   • Face off against bosses in alternate waves to earn valuable bonus points.<br>
   • Rack up points for taking down enemies and bosses.
 </p>
-
-<h2 align="center">👏 Credits</h2>
-
-<p align="center">
-  • Game sprites and images: [Image Source]<br>
-  • Sound effects: [Sound Source]<br>
-  • Music: [Music Source]
-</p>
-
 <h2 align="center">📄 License</h2>
 
 <p align="center">This project is licensed under the MIT License. Feel free to explore, modify, and enjoy the Space Invaders adventure to the fullest! 🌠</p>
