@@ -16,7 +16,7 @@ html, body {
     translate: -50% -50%;
     background: url('background\ 5.png');
 }
-#beetlemorph, #rhinomorph, #squidmorph, #eaglemorph, #enemyProjectile, #player, #player_jets, #boss, #boss8 {
+#beetlemorph, #rhinomorph, #squidmorph, #eaglemorph, #enemyProjectile, #player, #player_jets, #boss, #boss8, #robot {
     display: none;
 }
 #titleScreen {

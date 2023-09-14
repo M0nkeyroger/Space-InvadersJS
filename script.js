@@ -219,6 +219,18 @@ class Beetlemorph extends Enemy {
     }
 }
 
+class Robot extends Enemy {
+    constructor(game, positionX, positionY){
+        super(game, positionX, positionY);
+        this.image = document.getElementById('robot');
+        this.frameX = 0;
+        this.maxFrame = 2;
+        this.frameY = Math.floor(Math.random() * 4);
+        this.lives = 1;
+        this.maxLives = this.lives;
+    }
+}
+
 class Rhinomorph extends Enemy {
     constructor(game, positionX, positionY){
         super(game, positionX, positionY);
@@ -446,8 +458,10 @@ class Wave {
                     this.enemies.push(new Rhinomorph(this.game, enemyX, enemyY));
                 } else if (randomNumber < 0.7) {
                     this.enemies.push(new Eaglemorph(this.game, enemyX, enemyY));
-                } else {
+                } else if (randomNumber < 0.9) {
                     this.enemies.push(new Beetlemorph(this.game, enemyX, enemyY));
+                } else {
+                    this.enemies.push(new Robot(this.game, enemyX, enemyY));
                 }
 
             }
