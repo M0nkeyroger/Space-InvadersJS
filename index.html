@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Space Invaders</title>
-        <link rel="stylesheet" href="style.css">
-   </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Invaders</title>
+    <link rel="stylesheet" href="style.css">
+</head>
     <!-- Load Icon -->
     <link rel="icon" href="icon.ico" type="image/x-icon" sizes="32*32">
     <link rel="shortcut icon" href="icon.ico" type="image/x-icon" sizes="16*16">
@@ -22,32 +22,30 @@
     <audio id="laserShoot3">
         <source src="sounds/laser3.mp3" type="audio/mpeg">
     </audio> 
-    <body>
-        <!-- Title Screen -->
-        <div id="titleScreen">
-            <img src="title-image.png" alt="Title Image">
-            <img src="start-button.png" id="startButton" alt="Start Game">
-            <p id="controlsText" style="color: white;">Controls: Arrow Left/ Arrow Right to move, 1,2,3 to shoot, P to pause the game</p>
-        </div>
-        <!-- Pause Screen -->
-        <div id="pauseScreen">
-            <h1>PAUSED</h1>
-            <p>Press P to resume</p>
-        </div>
+<body>       
+    <!-- Title Screen -->
+    <div id="titleScreen">
+        <img src="title-image.png" alt="Title Image">
+        <img src="start-button.png" id="startButton" alt="Start Game">
+        <p id="controlsText" style="color: white;">Controls: Arrow Left/ Arrow Right to move, 1,2,3 to shoot, P to pause the game</p>
+    </div>
+    <!-- Pause Screen -->
+    <div id="pauseScreen">
+        <h1>PAUSED</h1>
+        <p>Press P to resume</p>
+    </div>
+    <canvas id="canvas1"></canvas>
+    <img src="beetlemorph.png" id="beetlemorph" alt="Beetle enemy">
+    <img src="rhinomorph.png" id="rhinomorph" alt="Rhino Enemy">
+    <img src="squidmorph.png" id="squidmorph" alt="Squid enemy">
+    <img src="eaglemorph.png" id="eaglemorph" alt="Eagle enemy">
+    <img src="enemyProjectile.png" id="enemyProjectile" alt="Enemy Projectile">
+    <img src="player.png" id="player" alt="Player">
+    <img src="player_jets.png" id="player_jets" alt="Player Jets">
+    <img src="boss.png" id="boss" alt="Boss">
+    <img src="boss8.png" id="boss8" alt="Boss 2">
+    <!---  610*808 frame true size  -->
 
-        <!-- Canvas for the Game -->
-        <canvas id="canvas1"></canvas>
-
-        <!-- Images for Game Elements -->
-        <img src="beetlemorph.png" id="beetlemorph" alt= "Beetle Morph" style="display: none;">
-        <img src="rhinomorph.png" id="rhinomorph" alt="Rhinoceros Morph" style="display: none;">
-        <img src="player.png" id="player" alt="Player ship" style="display: none;">
-        <img src="player_jets.png" id="player_jets" alt = "Player jets" style="display: none;">
-        <img src="boss.png" id="boss" alt="Alien Boss" style="display: none;">
-
-        <!---  610*808 frame true size  -->
-
-        <!-- Script to Load the Game -->
-        <script src="script.js"></script>
-    </body>
+    <script src="script.js"></script>
+</body>
 </html>
